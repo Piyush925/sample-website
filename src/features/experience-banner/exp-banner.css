@@ -1,0 +1,31 @@
+.card-container p {
+    color: #b0b1b2;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.exp-banner-container {
+    padding: 80px 0;
+}
+
+.card, .card-last  {
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin-bottom: 50px;
+    }
+    .card-container {
+        margin-top: 70px;
+    }
+    .exp-banner-container{
+        padding: 50px 0;
+    }
+}

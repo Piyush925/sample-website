@@ -1,0 +1,30 @@
+ul {
+    padding: 0;
+    align-items: left;
+    color: #b0b1b2;
+}
+li {
+    list-style-type: none;
+    margin: 1rem 0;
+}
+.list-div {
+    text-align: left;
+    width: 130px;
+    margin: 0 10px;
+}
+.footer-logo {
+    margin: 25px 10px 0px 10px;
+    width: 130px;
+    text-align: left;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        justify-content: center;
+    }
+}
